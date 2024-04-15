@@ -1,0 +1,1 @@
+{"version":1,"defects":{"App\\Tests\\ProductTest::testProductCreation":7,"App\\Tests\\ProductTest::testEmptyNameShouldThrowError":7},"times":{"App\\Tests\\ProductTest::testProductCreation":0.002,"App\\Tests\\ProductTest::testEmptyNameShouldThrowError":0.004,"App\\Tests\\ProductTest::testEmptyNameOnConstructShouldThrowError":0.001}}

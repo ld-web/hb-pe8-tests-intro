@@ -2,6 +2,8 @@
 
 namespace App;
 
+use InvalidArgumentException;
+
 class Product
 {
     // CONSTANTES
@@ -13,6 +15,9 @@ class Product
         private float $priceVatFree,
         private bool $discount = false
     ) {
+        if (empty($name)) {
+            throw new InvalidArgumentException();
+        }
     }
 
     // MÉTHODES
